@@ -1,0 +1,89 @@
+/*Basic image styling with a red-border*/
+img{
+    border: 5px solid red;
+    width: 360px;
+    height: auto;
+    transition: transform 0.3 ease;
+    /*Smooth transition for hover effect*/
+}
+
+img:hover{
+    transform: scale(1.1);
+    /*Slightly make the image bigger a little bit*/
+    cursor: pointer;
+}
+
+/*task 11*/
+.task11_body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.task11_header{
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.task11_content{
+    display: flex;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.task11_left {
+    background-color: lightgreen;
+    flex: 1; /* Takes 1 part of the available space */
+}
+
+.task11_right {
+    background-color: lightcoral;
+    flex: 2; /* Takes 2 parts of the available space */
+}
+
+
+.task11_right img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.task11_right img:hover {
+    transform: scale(1.2);
+    border-color: #4CAF50;
+}
+
+.task11_footer {
+    background-color: lightyellow;
+    height: 100px;
+    width: 100%;
+}
+
+/*about styling*/
+.about{
+    background-color: blue;
+    height: 100px;
+    width: 100%; 
+}
+
+.description{
+    display: flex;
+    height: 200px;
+    background-color: gray;
+}
+
+.about_footer{
+    background-color: white ;
+    height: 100px;
+    width: 100%; 
+}
