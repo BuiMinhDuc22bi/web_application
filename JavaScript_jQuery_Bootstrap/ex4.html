@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>>Password Match Checker</title>
+</head>
+<body>
+    <div class="ex4_form-container">
+        <h2>Register</h2>
+        <form id="ex4_registration-form">
+            <div class="ex4_form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your username" required>
+            </div>
+            <div class="ex4_form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" required>
+            </div>
+            <div class="ex4_form-group">
+                <label for="confirm-password">Re-type Password:</label>
+                <input type="password" id="confirm-password" placeholder="Re-type your password" required>
+            </div>
+            <button type="button" id="submit-btn" onclick="checkPasswords()">Submit</button>
+            <button type="reset" id="reset-btn">Reset</button>
+        </form>
+        <div id="ex4_message"></div>
+    </div>
+
+    <!-- Link to external JavaScript -->
+    <script src="script4.js"></script>
+</body>
+</html>

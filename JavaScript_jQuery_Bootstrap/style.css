@@ -1,0 +1,119 @@
+.ex1_container {
+    max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #0000;
+}
+
+h2{
+    text-align: center;
+}
+
+.ex1_form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+#ex1_result {
+    width: 400px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #f9f9f9;
+}
+
+
+
+
+
+/*ex4*/
+
+.ex4_form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.ex4_form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+button {
+    width: 48%;
+    padding: 10px;
+    margin: 5px 1%;
+    cursor: pointer;
+}
+#submit-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+#reset-btn {
+    background-color: #f44336;
+    color: white;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+}
+.success {
+    color: green;
+    margin-top: 10px;
+}
+
+
+/*ex5*/
+
+.ex5_container {
+    max-width: 400px;
+    padding: 20px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+}
+.ex5_form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+#ex5_result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*ex6*/
+h1{
+    text-align: center;
+}
